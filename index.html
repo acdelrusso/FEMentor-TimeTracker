@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/main.css">
+  
+
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+    <section class="profile">
+
+      <div class="profile__info">
+        <img src="images/image-jeremy.png" alt="profile picture">
+        <div class="profe__info__text">
+          <h2 class="profile__info__text__head">Report for</h2>
+          <h1 class="profile__info__text__name">Jeremy Robson</h1>
+        </div>
+      </div>
+
+      <ul class="profile__data">
+        <li id='daily' class="active">Daily</li>
+        <li id='weekly' >Weekly</li>
+        <li id='monthly'>Monthly</li>
+      </ul>
+
+    </section>
+
+    <section class="work">
+      <div class="card">
+        <h2 class="card__title">Work</h2>
+        <img src="images/icon-ellipsis.svg" alt="menu">
+        <h1 class="card__time">5hrs</h1> <!-- daily -->
+        <p class="card__previous">Yesterday - 7hrs</p> <!-- daily -->
+      </div>
+    </section>
+
+    <section class="play">
+      <div class="card">
+        <h2 class="card__title">Play</h2>
+        <img src="images/icon-ellipsis.svg" alt="menu">
+        <h1 class="card__time">1hr</h1> <!-- daily -->
+        <p class="card__previous">Yesterday - 2hrs</p> <!-- daily -->
+      </div>
+    </section>
+
+    <section class="study">
+      <div class="card">
+        <h2 class="card__title">Study</h2>
+        <img src="images/icon-ellipsis.svg" alt="menu">
+        <h1 class="card__time">0hrs</h1> <!-- daily -->
+        <p class="card__previous">Yesterday - 1hr</p> <!-- daily -->
+      </div>
+    </section>
+
+    <section class="exercise">
+      <div class="card">
+        <h2 class="card__title">Exercise</h2>
+        <img src="images/icon-ellipsis.svg" alt="menu">
+        <h1 class="card__time">1hr</h1> <!-- daily -->
+        <p class="card__previous">Yesterday - 1hr</p> <!-- daily -->
+      </div>
+    </section>
+
+
+    <section class="social">
+      <div class="card">
+        <h2 class="card__title">Social</h2>
+        <img src="images/icon-ellipsis.svg" alt="menu">
+        <h1 class="card__time">1hr</h1> <!-- daily -->
+        <p class="card__previous">Yesterday - 3hrs</p> <!-- daily -->
+      </div>
+    </section>
+
+    <section class="self-care">
+      <div class="card">
+        <h2 class="card__title">Self Care</h2>
+        <img src="images/icon-ellipsis.svg" alt="menu">
+        <h1 class="card__time">0hrs</h1> <!-- daily -->
+        <p class="card__previous">Previous - 1hr</p> <!-- daily -->
+      </div>
+    </section>
+    
+  </main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Anthony Del Russo</a>.
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
